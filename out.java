@@ -5,6 +5,16 @@ class out
 {
 public static void main(String s[])
 {
-System.out.println("hai");
+  Scanner sc=new Scanner(System.in);
+  int n=sc.nextInt();
+  if(n%2==0)
+  {
+    System.out.println("even");
+  }
+  else
+  {
+    System.out.println("odd");
+  }
+}
 }
 }
