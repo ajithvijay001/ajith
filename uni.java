@@ -16,7 +16,7 @@ class uni
      arr[i]=sc.nextInt();
     }
     Arrays.sort(arr);
-    for(i=0;i<arr.length;i++)
+    for(i=0;i<arr.length-1;i=i+2)
     {
     if(arr[i]==arr[i+1])
     {
