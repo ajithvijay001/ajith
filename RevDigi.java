@@ -7,7 +7,7 @@ class RevDigi
  {
   Scanner sc=new Scanner(System.in);
   int n=sc.nextInt();
-  int temp=0;t=0;
+  int temp=0,t=0;
   while(n>0)
   {
    temp=n%10;
