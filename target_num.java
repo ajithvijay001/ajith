@@ -15,13 +15,13 @@ public class rev
 
 	private static String check_trgt(int[] arr, int t)
 	{
-		String str="";
+		String str=null;
 		for(int i=0;i<arr.length;i++)
 		{
 			for(int j=i+1;j<arr.length;j++)
 			{
 				if(arr[i]+arr[j]==t)
-					str+=arr[i]+","+arr[j]+"  ";
+					str=arr[i]+","+arr[j]+"  ";
 			}
 		}
 		
